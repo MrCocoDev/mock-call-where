@@ -26,6 +26,15 @@
 .. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
     :alt: Project generated with PyScaffold
     :target: https://pyscaffold.org/
+.. image:: https://img.shields.io/pypi/v/mock-call-where.svg
+    :alt: PyPI-Server
+    :target: https://pypi.org/project/mock-call-where/
+.. image:: https://github.com/MrSage/mock-call-where/actions/workflows/ci.yml/badge.svg
+    :alt: GitHub Test CI
+    :target: https://github.com/MrSage/mock-call-where/actions/workflows/ci.yml
+.. image:: https://pepy.tech/badge/mock-call-where/month
+    :alt: Monthly Downloads
+    :target: https://pepy.tech/project/mock-call-where
 
 |
 
@@ -37,7 +46,23 @@ mock-call-where
     A short little plugin to find where a mock was called!
 
 
-A longer description of your project goes here...
+How to Use
+==========
+
+This library is setup as a pytest plugin, so if you're using pytest you can just add
+the `mock_where` fixture in your tests. If you'd like to always have it enabled...
+
+
+Manually Enabling/Disabling
+===========================
+
+::
+
+    from mock_call_where.override import AdvancedCall
+
+    AdvancedCall.apply()
+    ...  # The plugin is enabled now
+    AdvancedCall.unapply()
 
 
 .. _pyscaffold-notes:
