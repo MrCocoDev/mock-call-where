@@ -29,9 +29,9 @@
 .. image:: https://img.shields.io/pypi/v/mock-call-where.svg
     :alt: PyPI-Server
     :target: https://pypi.org/project/mock-call-where/
-.. image:: https://github.com/MrSage/mock-call-where/actions/workflows/ci.yml/badge.svg
+.. image:: https://github.com/MrCocoDev/mock-call-where/actions/workflows/ci.yml/badge.svg
     :alt: GitHub Test CI
-    :target: https://github.com/MrSage/mock-call-where/actions/workflows/ci.yml
+    :target: https://github.com/MrCocoDev/mock-call-where/actions/workflows/ci.yml
 .. image:: https://pepy.tech/badge/mock-call-where/month
     :alt: Monthly Downloads
     :target: https://pepy.tech/project/mock-call-where
